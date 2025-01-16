@@ -1,0 +1,29 @@
+The snippet [&>*]:flex is a Tailwind CSS group selector that applies the flex utility class to all direct children (*) of a parent element.
+
+Let's break it down:
+[&>:
+
+This is a special syntax introduced by Tailwind's arbitrary variants.
+The & refers to the current element where this style is applied.
+> means direct children selector in CSS.
+*:
+
+This is the universal selector in CSS, which matches all elements.
+:flex:
+
+The :flex is a Tailwind utility that applies the CSS property display: flex; to the matched elements.
+What it does:
+When you apply [&>*]:flex to a parent element, all its direct children will automatically have display: flex applied.
+
+Example:
+html
+Copy
+Edit
+<div class="[&>*]:flex">
+  <div>Child 1</div>
+  <div>Child 2</div>
+  <div>Child 3</div>
+</div>
+Result:
+The div with [&>*]:flex will ensure that each child element (<div>) is set to display: flex.
+This approach is useful for applying styles to direct children without modifying them individually or adding extra classes.
