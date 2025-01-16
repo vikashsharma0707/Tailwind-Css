@@ -591,14 +591,14 @@ video {
   margin-right: 1rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .mx-64 {
   margin-left: 16rem;
   margin-right: 16rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mb-1 {
@@ -661,8 +661,52 @@ video {
   display: none;
 }
 
-.w-96 {
-  width: 24rem;
+.h-64 {
+  height: 16rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-1\/2 {
+  height: 50%;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.max-h-10 {
+  max-height: 2.5rem;
+}
+
+.min-h-24 {
+  min-height: 6rem;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-1\/4 {
+  width: 25%;
 }
 
 .w-16 {
@@ -673,25 +717,21 @@ video {
   width: 15rem;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
+.w-\[50px\] {
+  width: 50px;
+}
+
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-1\/4 {
-  width: 25%;
-}
-
-.w-\[50px\] {
-  width: 50px;
+.w-64 {
+  width: 16rem;
 }
 
 .min-w-10 {
@@ -812,6 +852,11 @@ video {
   background-color: rgb(153 27 27 / var(--tw-bg-opacity, 1));
 }
 
+.bg-red-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(127 29 29 / var(--tw-bg-opacity, 1));
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -896,6 +941,10 @@ video {
 
 .outline-blue-500 {
   outline-color: #3b82f6;
+}
+
+.hover\:h-1\/4:hover {
+  height: 25%;
 }
 
 .hover\:w-1\/2:hover {
