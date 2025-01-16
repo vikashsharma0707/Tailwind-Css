@@ -566,6 +566,10 @@ video {
   position: relative;
 }
 
+.m-10 {
+  margin: 2.5rem;
+}
+
 .m-2 {
   margin: 0.5rem;
 }
@@ -582,10 +586,6 @@ video {
   margin: 1px;
 }
 
-.m-10 {
-  margin: 2.5rem;
-}
-
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -593,6 +593,23 @@ video {
 
 .my-4 {
   margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mx-64 {
+  margin-left: 16rem;
+  margin-right: 16rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-4 {
   margin-bottom: 1rem;
 }
 
@@ -604,32 +621,28 @@ video {
   margin-right: 1rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .mt-40 {
   margin-top: 10rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
 .block {
   display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
 }
 
 .flex {
@@ -646,6 +659,47 @@ video {
 
 .hidden {
   display: none;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-60 {
+  width: 15rem;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-\[50px\] {
+  width: 50px;
+}
+
+.min-w-10 {
+  min-width: 2.5rem;
+}
+
+.max-w-64 {
+  max-width: 16rem;
 }
 
 .border-collapse {
@@ -758,6 +812,10 @@ video {
   background-color: rgb(153 27 27 / var(--tw-bg-opacity, 1));
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -774,10 +832,6 @@ video {
   padding: 1px;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -786,10 +840,6 @@ video {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-}
-
-.pt-2 {
-  padding-top: 0.5rem;
 }
 
 .pb-2 {
@@ -802,6 +852,10 @@ video {
 
 .pr-2 {
   padding-right: 0.5rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
 }
 
 .text-center {
@@ -842,6 +896,10 @@ video {
 
 .outline-blue-500 {
   outline-color: #3b82f6;
+}
+
+.hover\:w-1\/2:hover {
+  width: 50%;
 }
 
 .hover\:bg-red-950:hover {
