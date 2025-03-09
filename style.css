@@ -1,3 +1,103 @@
-@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+ @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+/* use this in directive file */
+
+/* @layer base {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 100px;
+  }
+} */
+
+
+/* @layer base {
+    h1 {
+      @apply text-8xl
+    }
+
+    h2 {
+        @apply text-6xl
+      }
+
+      h3 {
+        @apply text-4xl
+      }
+  
+    
+  } */
+
+
+/* this is for custom csss */
+/* @layer components{
+    .btn{
+        @apply bg-blue-500 rounded-full hover:bg-red-500
+    }
+
+    .header{
+        @apply bg-blue-500 hover:bg-red-500
+    }
+  } */
+
+
+
+
+
+/* This is for bootstrap button */
+/* @layer components{
+    .btn1{
+        @apply bg-red-100 rounded-full m-2 p-2 
+    }
+
+    .btn2{
+        @apply bg-red-200 rounded-full m-2 p-2 
+    }
+
+    .btn3{
+        @apply bg-red-300 rounded-full m-2 p-2 
+    }
+    .btn4{
+        @apply bg-red-400 rounded-full m-2 p-2 
+    }
+    .btn5{
+        @apply bg-red-500 rounded-full m-2 p-2 
+    }
+    .btn6{
+        @apply bg-red-600 rounded-full m-2 p-2 
+    }
+    .btn7{
+        @apply bg-red-700 rounded-full m-2 p-2 
+    }
+    .btn8{
+        @apply bg-red-800 rounded-full m-2 p-2 
+    }
+  } */
+
+
+/* This is for custom function */
+/* @layer components{
+    .custom{
+        @apply  bg-red-500;height: theme("spacing.200");
+    }
+
+    @media screen(md) {
+        body{
+            @apply bg-yellow-500
+        }
+    } 
+} */
+
+
+@layer components {
+  .img {
+    @apply size-[400px] border-4 border-red-500 hover:scale-110 transition duration-1000 rounded m-2
+  }
+}

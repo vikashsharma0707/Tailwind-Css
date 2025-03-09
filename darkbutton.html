@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Mode Toggle</title>
+  <!-- Link the compiled Tailwind CSS file -->
+  <link rel="stylesheet" href="output.css">
+  <script>
+    function toggleDarkMode() {
+      const htmlElement = document.documentElement;
+      if (htmlElement.classList.contains('dark')) {
+        htmlElement.classList.remove('dark');
+      } else {
+        htmlElement.classList.add('dark');
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-black dark:bg-gray-900 dark:text-white transition-all duration-300">
+  <div class="min-h-screen flex items-center justify-center">
+    <button
+      onclick="toggleDarkMode()"
+      class="px-4 py-2 bg-blue-500 text-white font-semibold rounded-md shadow-md hover:bg-blue-600 dark:bg-yellow-500 dark:hover:bg-yellow-600"
+    >
+      Toggle Dark Mode
+    </button>
+  </div>
+</body>
+</html>

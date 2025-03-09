@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Fix</title>
+    <link rel="stylesheet" href="output.css" />
+</head>
+<body>
+    <h1>This is a background page</h1>
+    
+    <!-- First div with inline background-image -->
+    <div 
+        class="bg-red-500" 
+        style="
+            background-image: url('acics.png'); 
+            height: 100px; 
+            width: 100px; 
+            background-size: cover; 
+            background-position: center;">
+        <h1>This is a background image</h1>
+    </div>
+
+    <!-- Second div with Tailwind CSS utilities -->
+    <div 
+        class="relative h-40 w-40 bg-red-500 bg-[url('acics.png')] bg-cover bg-center">
+        <div class="absolute inset-0 bg-red-500 bg-opacity-50"></div>
+        <h1 class="relative z-10 text-white">This is a background image</h1>
+    </div>
+</body>
+</html>
